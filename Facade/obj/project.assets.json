@@ -8,24 +8,25 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\Whysoezzy\\.nuget\\packages\\": {}
+    "/Users/fegol/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Whysoezzy\\RiderProjects\\Facade\\Facade\\Facade.csproj",
+      "projectUniqueName": "/Users/fegol/RiderProjects/Facade/Facade/Facade.csproj",
       "projectName": "Facade",
-      "projectPath": "C:\\Users\\Whysoezzy\\RiderProjects\\Facade\\Facade\\Facade.csproj",
-      "packagesPath": "C:\\Users\\Whysoezzy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Whysoezzy\\RiderProjects\\Facade\\Facade\\obj\\",
+      "projectPath": "/Users/fegol/RiderProjects/Facade/Facade/Facade.csproj",
+      "packagesPath": "/Users/fegol/.nuget/packages/",
+      "outputPath": "/Users/fegol/RiderProjects/Facade/Facade/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Whysoezzy\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/fegol/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
       ],
       "sources": {
+        "/usr/local/share/dotnet/library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -59,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.407\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.401/RuntimeIdentifierGraph.json"
       }
     }
   }

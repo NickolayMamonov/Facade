@@ -6,8 +6,7 @@ public static class Program
     {
         Engine engine = new Engine();
         ClimateControl climateControl = new ClimateControl();
-
-        // Создаем экземпляр фасада автомобиля
+        
         CarFacade carFacade = new CarFacade(engine,climateControl);
         
         carFacade.StartEngine();

@@ -11,7 +11,7 @@ public class ClimateControl
     public void SetMaxTemp(int temp) => maxTemp = temp;
     public int ReduceTemp(int curTemp)
     {
-        if (curTemp != minTemp)
+        if (curTemp >= minTemp)
         {
             currentTemp = curTemp;
         }
@@ -21,7 +21,7 @@ public class ClimateControl
 
     public int IncreaseTemp(int curTemp)
     {
-        if (curTemp != maxTemp)
+        if (curTemp <= maxTemp)
         {
             currentTemp = curTemp;
         }

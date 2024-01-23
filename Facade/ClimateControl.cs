@@ -6,6 +6,9 @@ public class ClimateControl
     public int currentTemp = 0;
     private int maxTemp = 30;
 
+    public void SetMinTemp(int temp) => minTemp = temp;
+    public void SetCurrentTemp(int temp) => currentTemp = temp;
+    public void SetMaxTemp(int temp) => maxTemp = temp;
     public int ReduceTemp(int curTemp)
     {
         if (curTemp != minTemp)
